@@ -153,7 +153,7 @@ if [ -z "$persPeers" ]
 then
 	echo
 	echo "Error: persistent_peers not found at all in $configFile, please check that the file path is correct"
-	echo "Add this line to the file manually if it's really the config.toml for the node: persistent_peers=\"\""
+	echo "Add this line to the file manually if it's really the config.toml for the node: persistent_peers = \"\""
 	echo "After that, run this script again. Exiting..."
 	exit 1
 fi
