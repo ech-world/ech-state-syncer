@@ -53,4 +53,4 @@ If no path is given, /home/echelon/.echelond is used as a default
 
 Alternatively a snapshot of the whole data folder can be imported. Either of these methods does the trick:
 1. use the [Echelon Snapshot Importer](https://github.com/ech-world/ech-snapshot-importer/) script
-2. download the snapshot from [ech.world](https://ech.world/snapshots) and import it to your server manually
+2. download the snapshot from [ech.world](https://ech.world/snapshots/#import-snapshot-manually) and import it to your server manually
