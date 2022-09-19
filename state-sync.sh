@@ -262,10 +262,13 @@ fi
 
 # all scripts reach the end, sooner or later
 echo
-echo "All done! Your node should start syncing from state sync snapshot"
+echo "All done! Your node should start syncing from state sync snapshot. Few points for you to notice below"
+echo
+echo "CHECK NODE STATUS"
 echo "Remember to check your node's logs to make sure everything is working: sudo journalctl -u echelond -f"
 echo "Also, once echelond starts responding to queries, check that your node's current block height is near the network current height: echelond status"
 echo
+echo "DISABLE STATE SYNC"
 echo "Please note: your config.toml has state sync as enabled"
 echo "If you don't change the config and later reset your data folder, your node will try to start syncing from current trusted height which probably will fail"
 echo "You don't need to keep state syncing enabled after your node has reached current network height"
@@ -274,4 +277,9 @@ echo "* open $configFile for editing"
 echo "* find the attribute [statesync]"
 echo "* under that, set enabled = false"
 echo "* when echelond is restarted or started, state syncing will be disabled, node handles blocks normally"
+echo
+echo "ADDRESS BOOK"
+echo "For faster peer exchange, you can download an up-to-date address book from ech.world easily"
+echo "Go to your .echelond/config directory, make a backup of your existing addrbook.json for safety and then run:"
+echo "wget https://ech.world/latest/addrbook.json -O addrbook.json"
 echo
