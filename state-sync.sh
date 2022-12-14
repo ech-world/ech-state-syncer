@@ -21,7 +21,7 @@ prompts=true
 rpc1="https://rpc.eu.ech.world:443"
 peer1="ab8febad726c213fac69361c8fd47adc3f302e64@38.242.143.4:26656"
 rpc2="https://rpc.us.ech.world:443"
-peer2="7af104b97f68b21f474bf5caff35ba9d0720138b@154.12.227.53:26656"
+peer2="fda4d1c914a667e72181839fcfddb238c7e480c8@85.239.240.101:26656"
 
 #
 # CLI arguments
